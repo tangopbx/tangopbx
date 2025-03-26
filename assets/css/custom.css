@@ -1,0 +1,25 @@
+/*fpbx replacements*/
+#footer {
+  background-color: #fff;
+}
+#footer_content {
+  padding-top: 0px !important;
+}
+.login_item_title {
+  display: inline-block;
+  margin: 0 auto;
+  min-width: 180px;
+  text-align: center;
+}
+.login_item {
+  background-position: center;
+}
+.login_item_text {
+  white-space: nowrap;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #337ab7 !important;
+}

@@ -1,0 +1,9 @@
+{
+  "name": "tangopbx",
+  "author": "Clearly IP Inc",
+  "private": true,
+  "dependencies": {
+    "@prettier/plugin-php": "^0.11.2",
+    "prettier": "^1.18.2"
+  }
+}
