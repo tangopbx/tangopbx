@@ -21,7 +21,6 @@
 	<console>
 		<command>
 			<name>tangopbx</name>
-			<alias>tp</alias>
 			<class>Tangopbx</class>
 		</command>
 	</console>
