@@ -18,7 +18,7 @@ class Tangopbx extends FreePBX_Helpers implements BMO
 
 	private $advancedSettings = array(
 		'BRAND_IMAGE_FAVICON' => 'modules/__RAWNAME__/assets/images/favicon.ico',
-		'BRAND_IMAGE_TANGO_LEFT' => 'modules/__RAWNAME__/assets/images/oem-top-left-image.png',
+		'BRAND_IMAGE_TANGO_LEFT' => '/admin/modules/__RAWNAME__/assets/images/oem-top-left-image.png',
 		'BRAND_TITLE' => '__BRAND__',
 		'BRAND_IMAGE_FREEPBX_FOOT' => '',
 		'BRAND_FREEPBX_ALT_LEFT' => '__BRAND__',
