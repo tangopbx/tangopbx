@@ -35,7 +35,7 @@ class Tangopbx extends FreePBX_Helpers implements BMO
 		'VIEW_FOOTER_CONTENT' => 'modules/__RAWNAME__/views/footer_content.php',
 		'VIEW_LOGIN' => 'modules/__RAWNAME__/views/login.php',
 		'SIPUSERAGENT' => '__BRAND__',
-		'RSSFEEDS' => '',
+		'RSSFEEDS' => 'https://clearlyip.com/feed/',
 		'USE_FREEPBX_MENU_CONF' => true
 	);
 
