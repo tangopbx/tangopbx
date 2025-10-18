@@ -13,6 +13,12 @@
 		<div class="form-group">
 			<input type="password" name="password" class="form-control" value="" placeholder="password" autocomplete="off">
 		</div>
+		<?php if (version_compare(get_framework_version(),'16.0.41','gt')) { ?>
+			<div class="" style="text-align:center;padding:10px 0">
+				<button type="submit" id="customContinue" class="ui-button ui-corner-all ui-widget btn">Continue</button>
+				<button type="button" id="customCancel" class="ui-button ui-corner-all ui-widget btn">Cancel</button>
+			</div>
+		<?php } ?>
 	</form>
 </div>
 <div id="login_icon_holder">
@@ -44,3 +50,11 @@
 	</div>
 </div>
 <script type="text/javascript" src="assets/js/views/login.js"></script>
+<script type="text/javascript">
+		if (typeof('checkPasswordReminder') !== 'function') {
+			function checkPasswordReminder(currentForm) {
+				// Return a resolved Promise immediately
+				return Promise.resolve();
+			}
+		}
+</script>
